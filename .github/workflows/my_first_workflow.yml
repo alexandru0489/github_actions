@@ -14,3 +14,7 @@ jobs:
                 python3 -V
                 touch my_file_with_workflow.py
                 ls -l
+    multiple-shells:
+        uses: ./.github/workflows/multiple_shells.yml
+    control-test:
+        uses: ./.github/workflows/control_tests.yaml
